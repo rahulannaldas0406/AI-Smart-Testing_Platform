@@ -1,0 +1,5 @@
+Feature: User Authentication & Checkout Flow
+1. Users must log in with a valid email and a password of at least 8 characters.
+2. After 3 failed login attempts, the account must lock for 15 minutes.
+3. Logged-in users can add items to the cart and proceed to payment.
+4. Discount codes should apply a 10% reduction before tax calculation.
